@@ -1,7 +1,7 @@
 function! myhi#MyHilight()
-    for key in keys(g:myhi)
-        exec(printf('hi CustomColor guibg=%s ctermbg=%s',g:myhi[key].gui,g:myhi[key].cterm))
-        let w:myhi_match_id = matchadd('CustomColor',printf('%s',escape(key,'/')))
+    for key in keys(g:myhi#match_pat)
+        exec(printf('hi myhiColor%s guibg=%s ctermbg=%s',key,g:myhi#match_pat[key].gui,g:myhi#match_pat[key].cterm))
+        let w:myhi_match_id = matchadd('myhiColor'..key,printf('%s',escape(g:myhi#match_pat[key].pat,'/')))
     endfor
 endfunction
 

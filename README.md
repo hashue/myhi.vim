@@ -7,7 +7,7 @@ Highlight your custom comment (e.g `//hasu:`)
 **This plugin inspired by [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim)**
 
 
-### Usage
+# Usage
 set `g:myhi` like berrow.
 ```
 let g:myhi#match_pat = {
@@ -17,7 +17,7 @@ let g:myhi#match_pat = {
 \}
 ```
 
-## TODO
+# TODO
 - [ ] add document
-- [ ] write README.md
+- [x] write README.md
 

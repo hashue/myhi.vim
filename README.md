@@ -1,6 +1,6 @@
 # myhi.vim
 
-Highlight your custom comment (e.g //hashue:)
+Highlight your custom comment (e.g `//hashue:`)
 
 ## TODO
 - [ ] add document

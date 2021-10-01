@@ -3,6 +3,7 @@
 Highlight your custom comment (e.g `//hasu:`)
 
 **This plugin inspired by [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim)**
+
 ![](https://user-images.githubusercontent.com/57579123/135600569-93f70037-b89c-4c5f-a8be-019b8feab95d.png)
 
 ### Usage

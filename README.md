@@ -11,9 +11,9 @@ Highlight your custom comment (e.g `//hasu:`)
 set `g:myhi` like berrow.
 ```
 let g:myhi#match_pat = {
-\ 'NOTE': {'pat':'//NOTE','gui': '#10B981', 'cterm': '22' },
-\ 'TODO': {'pat':'//TODO','gui': '#10B982', 'cterm': '23'},
-\ 'MY_COMMENT': {'pat':'//MY_COMMENT','gui': 'Blue', 'cterm': 'Blue' },
+\ 'myNOTE': {'pat':'//NOTE:','gui': '#10B981', 'cterm': '22' },
+\ 'myTODO': {'pat':'//TODO:','gui': '#10B983', 'cterm': '24'},
+\ 'myhasu': {'pat':'//hasu:','gui': 'Blue', 'cterm': 'Blue' },
 \}
 ```
 

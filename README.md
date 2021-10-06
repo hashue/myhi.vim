@@ -20,4 +20,3 @@ let g:myhi#match_pat = {
 # TODO
 - [ ] add document
 - [x] write README.md
-
